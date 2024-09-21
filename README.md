@@ -10,9 +10,13 @@ https://github.com/cheat-engine/cheat-engine/blob/184e2553a8950772ea54d72c780820
 
 해당 파일을 실행하기 전 인코딩된 코드가 필요합니다.
 
+만약 얻지 못한 경우에는 CEtrainer.decrypter.jar 을 사용하시기 바랍니다.
+
 ```
 py Main.py
 ```
+
+바이트코드를 얻었다면, unluac로 디컴파일을 진행하거나 원하는대로 조리하면 됩니다.
 
 ## 디코딩의 작동 원리
 
