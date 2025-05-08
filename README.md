@@ -5,10 +5,8 @@ Cheat Engine의 **decodeFunction**의 기능을 대신하여 인코딩된 문자
 ## 사용법
 
 ```
-py Main.py
+py main.py <file path>
 ```
-
-바이트코드를 얻었다면, 디컴파일을 진행하거나 원하는대로 조리하시면 됩니다.
 
 ## 작동 원리
 
@@ -20,3 +18,4 @@ py Main.py
 4. 압축을 풀어서 나온 바이트코드를 불러옵니다.
 
 [decodeFunction Code](https://github.com/cheat-engine/cheat-engine/blob/184e2553a8950772ea54d72c780820fbb7b712bd/Cheat%20Engine/LuaHandler.pas#L11983)
+[base85 to binary](https://github.com/cheat-engine/cheat-engine/blob/ec45d5f47f92a239ba0bf51ec5d04a7509c3fd37/Cheat%20Engine/custombase85.pas#L26)
